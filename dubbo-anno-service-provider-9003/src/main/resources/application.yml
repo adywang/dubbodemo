@@ -1,0 +1,13 @@
+server:
+  port: 9002
+dubbo:
+  application:
+    name: dubbo-anno-service-provider-9002
+    qos-enable: true
+    qos-port: 33333
+  protocol:
+    port: -1
+    name: tri
+    ext-protocol: dubbo
+  registry:
+    address: zookeeper://127.0.0.1:2181

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dubbo-jdkapi/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dubbo-anno-service-api/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dubbo-anno-service-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dubbo-anno-service-consumer/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dubbo-springcloud-service-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dubbo-anno-service-provider-9001/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dubbo-anno-service-provider-9002/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dubbo-anno-service-provider-9003/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dubbo-nacos-service-provider-9001/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dubbo-nacos-service-consumer/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/nacos-springboot-config-demo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/nacos-springcloud-config-demo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/nacos-jdk-api/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/sentinel-jdkapi/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/gofdemo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/casdemo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/mqttdemo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/shardingjdbcdemo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-anno-service-api" />
+        <module name="mqttdemo" />
+        <module name="dubbo-anno-service-provider" />
+        <module name="casdemo" />
+        <module name="nacos-jdk-api" />
+        <module name="dubbo-jdkapi" />
+        <module name="shardingdemo" />
+        <module name="nacos-springboot-config-demo" />
+        <module name="shardingjdbcdemo-01" />
+        <module name="nexusdemo" />
+        <module name="sentinel-jdkapi" />
+        <module name="gofdemo" />
+        <module name="nacos-springcloud-config-demo" />
+        <module name="dubbo-anno-service-provider-9001" />
+        <module name="emqxhttpserver" />
+        <module name="dubbo-anno-service-consumer" />
+        <module name="dubbo-anno-service-provider-9003" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-anno-service-provider-9001 (1)" target="1.8" />
+      <module name="dubbo-anno-service-provider-9002" target="1.8" />
+      <module name="dubbo-nacos-service-consumer" target="1.8" />
+      <module name="dubbo-nacos-service-provider-9001" target="1.8" />
+      <module name="dubbo-springcloud-service-provider" target="1.8" />
+      <module name="shardingjdbcdemo" target="1.8" />
+      <module name="spring-cloud-eureka-payment-9002" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="emqxhttpserver" options="-parameters" />
+      <module name="nexusdemo" options="-parameters" />
+      <module name="shardingdemo" options="-parameters" />
+      <module name="shardingjdbcdemo-01" options="-parameters" />
+    </option>
+  </component>
+</project>

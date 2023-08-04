@@ -1,0 +1,14 @@
+# Project exclude paths
+/casdemo/target/
+/dubbo-anno-service-api/target/
+/dubbo-anno-service-consumer/target/
+/dubbo-anno-service-provider/target/
+/dubbo-anno-service-provider-9001/target/
+/dubbo-anno-service-provider-9003/target/
+/dubbo-jdkapi/target/
+/gofdemo/target/
+/mqttdemo/target/
+/nacos-jdk-api/target/
+/nacos-springboot-config-demo/target/
+/nacos-springcloud-config-demo/target/
+/sentinel-jdkapi/target/

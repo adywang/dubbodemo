@@ -1,0 +1,16 @@
+server:
+  port: 9001
+dubbo:
+  application:
+    name: dubbo-anno-service-provider-9001
+    qos-enable: true
+    qos-port: 22222
+  protocol:
+    port: -1
+    name: tri
+    ext-protocol: dubbo
+  registry:
+    address: zookeeper://127.0.0.1:2181
+
+  provider:
+    flowcontrol: autoConcurrencyLimiter
